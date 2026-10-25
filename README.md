@@ -1,5 +1,7 @@
 <div align="center">
-    <img src="docs/logo.svg" alt="Little State Machine logo" width="96" />
+    <a href="https://little-state-machine.bluebill1049.dev/">
+      <img src="docs/logo.svg" alt="Little State Machine logo" width="96" />
+    </a>
     <h1>Little State Machine</h1>
     
 Simple state for React. A tiny global store with actions and persistence built in.

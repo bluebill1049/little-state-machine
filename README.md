@@ -1,28 +1,40 @@
 <div align="center">
-  <a href="https://little-state-machine.bluebill1049.dev/">
+  <a href="https://little-state-machine.bluebill1049.dev/" title="Little State Machine">
     <img src="docs/logo.svg" alt="Little State Machine" width="96" />
   </a>
-
-  # Little State Machine
-
-  Simple global state for React.
 </div>
 
-## Features
+<p align="center">Simple global state for React.</p>
 
-- Tiny, with no runtime dependencies
+<div align="center">
+
+[![npm downloads](https://img.shields.io/npm/dm/little-state-machine.svg?style=for-the-badge)](https://www.npmjs.com/package/little-state-machine)
+[![npm](https://img.shields.io/npm/dt/little-state-machine.svg?style=for-the-badge)](https://www.npmjs.com/package/little-state-machine)
+[![License](https://img.shields.io/npm/l/little-state-machine?style=for-the-badge)](https://github.com/bluebill1049/little-state-machine/blob/master/LICENSE)
+
+</div>
+
+<p align="center">
+  <a href="https://little-state-machine.bluebill1049.dev/">Get started</a> |
+  <a href="https://little-state-machine.bluebill1049.dev/">Documentation</a> |
+  <a href="#quickstart">Quickstart</a>
+</p>
+
+### Features
+
+- Tiny, with [no runtime dependencies](./package.json)
 - State persistence with session storage by default
 - Selectors to limit re-renders
 
-## Install
+### Install
 
-```bash
+```sh
 npm install little-state-machine
 ```
 
-## Quickstart
+### Quickstart
 
-```tsx
+```jsx
 import { createStore, useStateMachine } from 'little-state-machine';
 
 createStore({ count: 0 });

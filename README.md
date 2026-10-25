@@ -1,7 +1,10 @@
 <div align="center">
-    <h1>📠 Little State Machine</h1>
+    <img src="docs/logo.svg" alt="Little State Machine logo" width="96" />
+    <h1>Little State Machine</h1>
     
-State management made super simple
+Simple state for React. A tiny global store with actions and persistence built in.
+
+[Visit the Little State Machine website](https://little-state-machine.bluebill1049.dev/)
 </div>
 
 <div align="center">

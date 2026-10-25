@@ -1,6 +1,7 @@
 {
   "name": "little-state-machine",
-  "description": "State management made super simple",
+  "description": "A tiny global store with actions and persistence for React",
+  "homepage": "https://little-state-machine.bluebill1049.dev/",
   "sideEffects": false,
   "files": [
     "dist"
